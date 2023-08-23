@@ -8,7 +8,7 @@ export default function App() {
         <div className="flex min-h-screen w-full flex-col items-center justify-center space-y-8">
           <img className="border-4 border-slate-700	 rounded-full w-80 h-80" src={avatar} alt="avatar" />
           <TypeAnimation
-            className='text-bold text-4xl sm:text-2xl'
+            className='text-bold text-4xl md:text-2xl'
             sequence={[
               'Fachrel Razka Pramudya',
               1000,
